@@ -22,6 +22,7 @@
 		E40EC7F12480E105002A823F /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7F02480E105002A823F /* B_CategoryUITests.m */; };
 		E40EC88E24810A55002A823F /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC88C24810A55002A823F /* CTMediator+B.m */; };
 		E40EC89124810A5D002A823F /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC89024810A5D002A823F /* Target_B.m */; };
+		E40EC89424810D4B002A823F /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC89324810D4B002A823F /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		E40EC88D24810A55002A823F /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+B.h"; path = "Source/CTMediator+B.h"; sourceTree = "<group>"; };
 		E40EC88F24810A5D002A823F /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_B.h; path = Source/Target_B.h; sourceTree = "<group>"; };
 		E40EC89024810A5D002A823F /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_B.m; path = Source/Target_B.m; sourceTree = "<group>"; };
+		E40EC89224810D4B002A823F /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		E40EC89324810D4B002A823F /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				E40EC88C24810A55002A823F /* CTMediator+B.m */,
 				2411EDF86D522FB01FC3E96F /* Target */,
 				3358B78A3C4A4C28B45E8FEF /* DemoViewController.swift */,
+				E40EC89224810D4B002A823F /* BViewController.h */,
+				E40EC89324810D4B002A823F /* BViewController.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				E40EC7D12480E102002A823F /* ViewController.m in Sources */,
 				E40EC7CB2480E102002A823F /* AppDelegate.m in Sources */,
 				E40EC88E24810A55002A823F /* CTMediator+B.m in Sources */,
+				E40EC89424810D4B002A823F /* BViewController.m in Sources */,
 				E40EC7DC2480E105002A823F /* main.m in Sources */,
 				E40EC7CE2480E102002A823F /* SceneDelegate.m in Sources */,
 				8B8F7FED030FB197D8C41207 /* Target_B_Category.swift in Sources */,
@@ -568,6 +574,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "----.B-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -585,6 +592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "----.B-Category";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
