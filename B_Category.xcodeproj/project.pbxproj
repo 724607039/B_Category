@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,8 @@
 		E40EC7DC2480E105002A823F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7DB2480E105002A823F /* main.m */; };
 		E40EC7E62480E105002A823F /* B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7E52480E105002A823F /* B_CategoryTests.m */; };
 		E40EC7F12480E105002A823F /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7F02480E105002A823F /* B_CategoryUITests.m */; };
+		E40EC8002480E2C5002A823F /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7FE2480E2C5002A823F /* CTMediator+B.m */; };
+		E40EC8032480E2D1002A823F /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC8012480E2D1002A823F /* Target_B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +45,8 @@
 		3358B78A3C4A4C28B45E8FEF /* DemoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoViewController.swift; path = Source/DemoViewController.swift; sourceTree = "<group>"; };
 		345B1B866DBDF1A00829270D /* Pods-B_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B_Category.debug.xcconfig"; path = "Target Support Files/Pods-B_Category/Pods-B_Category.debug.xcconfig"; sourceTree = "<group>"; };
 		54C3230B3AEB8575C21B3474 /* Target_B_Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_B_Category.swift; path = Source/Target/Target_B_Category.swift; sourceTree = "<group>"; };
-		872DA88413D2C71C6C5CEE51 /* B_Category_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = B_Category_Extension.podspec; path = ../B_Category_Extension.podspec; sourceTree = "<group>"; };
-		98AAC59998FD34FD2B7AD689 /* B_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text.script.ruby; name = B_Category.podspec; path = ../B_Category.podspec; sourceTree = "<group>"; };
+		872DA88413D2C71C6C5CEE51 /* B_Category_Extension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = B_Category_Extension.podspec; path = ../B_Category_Extension.podspec; sourceTree = "<group>"; };
+		98AAC59998FD34FD2B7AD689 /* B_Category.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = B_Category.podspec; path = ../B_Category.podspec; sourceTree = "<group>"; };
 		A0854FD1D51A99D663116E73 /* Pods_B_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_B_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7972E35D15A54108EC201ED /* Pods-B_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-B_Category.release.xcconfig"; path = "Target Support Files/Pods-B_Category/Pods-B_Category.release.xcconfig"; sourceTree = "<group>"; };
 		E10551A158578F0064E16A2B /* B_Category_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = B_Category_Extension.swift; path = Extension/B_Category_Extension.swift; sourceTree = "<group>"; };
@@ -66,6 +68,10 @@
 		E40EC7EC2480E105002A823F /* B_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = B_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40EC7F02480E105002A823F /* B_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITests.m; sourceTree = "<group>"; };
 		E40EC7F22480E105002A823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40EC7FE2480E2C5002A823F /* CTMediator+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
+		E40EC7FF2480E2C5002A823F /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
+		E40EC8012480E2D1002A823F /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
+		E40EC8022480E2D1002A823F /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +139,6 @@
 				345B1B866DBDF1A00829270D /* Pods-B_Category.debug.xcconfig */,
 				A7972E35D15A54108EC201ED /* Pods-B_Category.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,6 +167,10 @@
 		E40EC7C82480E102002A823F /* B_Category */ = {
 			isa = PBXGroup;
 			children = (
+				E40EC8022480E2D1002A823F /* Target_B.h */,
+				E40EC8012480E2D1002A823F /* Target_B.m */,
+				E40EC7FF2480E2C5002A823F /* CTMediator+B.h */,
+				E40EC7FE2480E2C5002A823F /* CTMediator+B.m */,
 				E40EC7C92480E102002A823F /* AppDelegate.h */,
 				E40EC7CA2480E102002A823F /* AppDelegate.m */,
 				E40EC7CC2480E102002A823F /* SceneDelegate.h */,
@@ -375,9 +384,11 @@
 			files = (
 				E40EC7D12480E102002A823F /* ViewController.m in Sources */,
 				E40EC7CB2480E102002A823F /* AppDelegate.m in Sources */,
+				E40EC8002480E2C5002A823F /* CTMediator+B.m in Sources */,
 				E40EC7DC2480E105002A823F /* main.m in Sources */,
 				E40EC7CE2480E102002A823F /* SceneDelegate.m in Sources */,
 				8B8F7FED030FB197D8C41207 /* Target_B_Category.swift in Sources */,
+				E40EC8032480E2D1002A823F /* Target_B.m in Sources */,
 				4A0BAD0D1FDA0EDB1DF8246C /* DemoViewController.swift in Sources */,
 				2755273B5752B2862A809ABA /* B_Category_Extension.swift in Sources */,
 			);
