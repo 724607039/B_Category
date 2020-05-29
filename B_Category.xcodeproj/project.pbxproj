@@ -20,8 +20,8 @@
 		E40EC7DC2480E105002A823F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7DB2480E105002A823F /* main.m */; };
 		E40EC7E62480E105002A823F /* B_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7E52480E105002A823F /* B_CategoryTests.m */; };
 		E40EC7F12480E105002A823F /* B_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7F02480E105002A823F /* B_CategoryUITests.m */; };
-		E40EC8002480E2C5002A823F /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC7FE2480E2C5002A823F /* CTMediator+B.m */; };
-		E40EC8032480E2D1002A823F /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC8012480E2D1002A823F /* Target_B.m */; };
+		E40EC88E24810A55002A823F /* CTMediator+B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC88C24810A55002A823F /* CTMediator+B.m */; };
+		E40EC89124810A5D002A823F /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EC89024810A5D002A823F /* Target_B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +68,10 @@
 		E40EC7EC2480E105002A823F /* B_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = B_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40EC7F02480E105002A823F /* B_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_CategoryUITests.m; sourceTree = "<group>"; };
 		E40EC7F22480E105002A823F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E40EC7FE2480E2C5002A823F /* CTMediator+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+B.m"; sourceTree = "<group>"; };
-		E40EC7FF2480E2C5002A823F /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+B.h"; sourceTree = "<group>"; };
-		E40EC8012480E2D1002A823F /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
-		E40EC8022480E2D1002A823F /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		E40EC88C24810A55002A823F /* CTMediator+B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+B.m"; path = "Source/CTMediator+B.m"; sourceTree = "<group>"; };
+		E40EC88D24810A55002A823F /* CTMediator+B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+B.h"; path = "Source/CTMediator+B.h"; sourceTree = "<group>"; };
+		E40EC88F24810A5D002A823F /* Target_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Target_B.h; path = Source/Target_B.h; sourceTree = "<group>"; };
+		E40EC89024810A5D002A823F /* Target_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Target_B.m; path = Source/Target_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +127,10 @@
 		A5AF7128A1B49B2B581185B5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E40EC88F24810A5D002A823F /* Target_B.h */,
+				E40EC89024810A5D002A823F /* Target_B.m */,
+				E40EC88D24810A55002A823F /* CTMediator+B.h */,
+				E40EC88C24810A55002A823F /* CTMediator+B.m */,
 				2411EDF86D522FB01FC3E96F /* Target */,
 				3358B78A3C4A4C28B45E8FEF /* DemoViewController.swift */,
 			);
@@ -167,10 +171,6 @@
 		E40EC7C82480E102002A823F /* B_Category */ = {
 			isa = PBXGroup;
 			children = (
-				E40EC8022480E2D1002A823F /* Target_B.h */,
-				E40EC8012480E2D1002A823F /* Target_B.m */,
-				E40EC7FF2480E2C5002A823F /* CTMediator+B.h */,
-				E40EC7FE2480E2C5002A823F /* CTMediator+B.m */,
 				E40EC7C92480E102002A823F /* AppDelegate.h */,
 				E40EC7CA2480E102002A823F /* AppDelegate.m */,
 				E40EC7CC2480E102002A823F /* SceneDelegate.h */,
@@ -384,11 +384,11 @@
 			files = (
 				E40EC7D12480E102002A823F /* ViewController.m in Sources */,
 				E40EC7CB2480E102002A823F /* AppDelegate.m in Sources */,
-				E40EC8002480E2C5002A823F /* CTMediator+B.m in Sources */,
+				E40EC88E24810A55002A823F /* CTMediator+B.m in Sources */,
 				E40EC7DC2480E105002A823F /* main.m in Sources */,
 				E40EC7CE2480E102002A823F /* SceneDelegate.m in Sources */,
 				8B8F7FED030FB197D8C41207 /* Target_B_Category.swift in Sources */,
-				E40EC8032480E2D1002A823F /* Target_B.m in Sources */,
+				E40EC89124810A5D002A823F /* Target_B.m in Sources */,
 				4A0BAD0D1FDA0EDB1DF8246C /* DemoViewController.swift in Sources */,
 				2755273B5752B2862A809ABA /* B_Category_Extension.swift in Sources */,
 			);
